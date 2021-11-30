@@ -3,3 +3,33 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/**************************/
+
+/************************* NAVBAR **************************/
+
+/* LOGO */
+#logo {
+  height: 80px;
+  width: 80px;
+  transition: transform 500ms ease;
+}
+
+#logo:hover {
+  transform: rotateZ(360deg);
+}
+
+/* MENU LINKS */
+.nav-item {
+  border-radius: 10px;
+  transition: all 300ms ease;
+}
+
+.nav-item:hover {
+  background-color: white;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
