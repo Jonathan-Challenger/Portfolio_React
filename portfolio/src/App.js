@@ -1,11 +1,11 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "./components/Navbar";
+import AppNav from "./components/AppNav";
 
 const App = () => {
   return (
     <div className='App'>
-      <Navbar />
+      <AppNav />
       <h1>Hello World</h1>
       <p>This is my new portfolio</p>
     </div>
