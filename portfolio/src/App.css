@@ -78,6 +78,15 @@ section {
   z-index: 1;
 }
 
+.titles a {
+  color: white;
+  text-decoration: none;
+}
+
+.titles a:hover {
+  color: white;
+}
+
 .heading {
   font-size: 5rem;
 }
