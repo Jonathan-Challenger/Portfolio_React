@@ -89,6 +89,12 @@ section {
   font-size: 5rem;
 }
 
+@media (max-width: 400px) {
+  .heading {
+    font-size: 4rem;
+  }
+}
+
 .name {
   color: #dc3545;
 }
@@ -99,7 +105,6 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  /* z-index: -1; */
 }
 
 .circles li {
