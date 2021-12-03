@@ -9,8 +9,8 @@ const Landing = () => {
             I'm <span className='name'>Jonathan Challenger</span>
           </h1>
           <h3 className='fs-1'>Frontend Web Developer</h3>
-          <Button color='danger' size='lg'>
-            Find out More
+          <Button color='danger' size='lg' className='my-3'>
+            <a href='#about'>Find out More</a>
           </Button>
         </div>
         <ul className='circles'>
