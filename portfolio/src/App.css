@@ -26,10 +26,18 @@
 }
 
 .nav-item:hover {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .nav-link {
   font-size: 1.5rem;
   text-transform: uppercase;
+}
+
+@media (max-width: 991px) {
+  .nav-item {
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+  }
 }
