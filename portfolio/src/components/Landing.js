@@ -9,10 +9,22 @@ const Landing = () => {
             I'm <span className='name'>Jonathan Challenger</span>
           </h1>
           <h3 className='fs-1'>Frontend Web Developer</h3>
+          <Button color='danger' size='lg'>
+            Find out More
+          </Button>
         </div>
-        <Button color='danger' size='lg'>
-          Find out More
-        </Button>
+        <ul className='circles'>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
       </Container>
     </section>
   );
