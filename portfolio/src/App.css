@@ -4,6 +4,33 @@
   box-sizing: border-box;
 }
 
+body,
+html {
+  background-color: rgba(0, 0, 0, 0.9);
+  line-height: 1.6;
+  font-family: "Sora", sans-serif;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: auto;
+}
+
+section {
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+
+.text-white {
+  color: white;
+}
+
 /**************************/
 
 /************************* NAVBAR **************************/
@@ -40,4 +67,27 @@
     border-bottom: 1px solid black;
     border-radius: 0;
   }
+}
+
+/************************** LANDING **************************/
+
+#landing-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 743px;
+  position: relative;
+}
+
+.titles {
+  text-align: center;
+}
+
+.heading {
+  font-size: 5rem;
+}
+
+.name {
+  color: #dc3545;
 }
