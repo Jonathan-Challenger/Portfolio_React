@@ -27,7 +27,7 @@ const AppNav = () => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className='ms-auto' navbar>
             <NavItem className='mx-1'>
-              <NavLink href='/'>About</NavLink>
+              <NavLink href='#about'>About</NavLink>
             </NavItem>
             <NavItem className='mx-1'>
               <NavLink href='/'>Skills</NavLink>
