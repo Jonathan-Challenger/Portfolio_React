@@ -19,7 +19,7 @@ const AppNav = () => {
 
   return (
     <>
-      <Navbar color='danger' expand='lg' light>
+      <Navbar color='danger' expand='lg' light fixed='top'>
         <NavbarBrand href='/'>
           <img src={logo} alt='Logo' id='logo'></img>
         </NavbarBrand>
