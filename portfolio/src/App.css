@@ -307,3 +307,17 @@ section {
   position: relative;
   padding-top: 200px;
 }
+
+.skills-info {
+  display: flex;
+}
+
+.card-item {
+  max-width: 250px;
+  height: 300px;
+  cursor: pointer;
+}
+
+.card {
+  height: 100%;
+}
