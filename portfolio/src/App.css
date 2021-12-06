@@ -1,10 +1,15 @@
+:root {
+  --primary-color: #dc3545;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
+body,
+html {
   overflow-y: auto;
   overflow-x: hidden;
   height: auto;
@@ -101,7 +106,7 @@ section {
 }
 
 .name {
-  color: #dc3545;
+  color: var(--primary-color);
 }
 
 /* FLOATING SHAPES */
@@ -261,10 +266,44 @@ section {
   justify-content: center;
   height: 743px;
   position: relative;
-  padding-top: 150px;
+  padding-top: 200px;
 }
 
 .section-title {
-  color: #dc3545;
+  color: var(--primary-color);
   font-size: 3rem;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-text {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.highlight {
+  color: var(--primary-color);
+}
+
+@media (max-width: 600px) {
+  .about-text {
+    font-size: 1rem;
+  }
+}
+
+/************************** SKILLS **************************/
+
+#skills-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 743px;
+  position: relative;
+  padding-top: 200px;
 }
