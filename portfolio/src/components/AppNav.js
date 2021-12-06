@@ -20,7 +20,7 @@ const AppNav = () => {
   return (
     <>
       <Navbar color='danger' expand='lg' light fixed='top'>
-        <NavbarBrand href='/'>
+        <NavbarBrand href='#landing'>
           <img src={logo} alt='Logo' id='logo'></img>
         </NavbarBrand>
         <NavbarToggler onClick={() => toggle()} />
@@ -30,7 +30,7 @@ const AppNav = () => {
               <NavLink href='#about'>About</NavLink>
             </NavItem>
             <NavItem className='mx-1'>
-              <NavLink href='/'>Skills</NavLink>
+              <NavLink href='#skills'>Skills</NavLink>
             </NavItem>
             <NavItem className='mx-1'>
               <NavLink href='/'>Projects</NavLink>
