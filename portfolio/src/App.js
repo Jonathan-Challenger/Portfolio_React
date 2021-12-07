@@ -4,6 +4,7 @@ import AppNav from "./components/AppNav";
 import Landing from "./components/Landing";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Landing />
       <About />
       <Skills />
+      <Projects />
     </div>
   );
 };
