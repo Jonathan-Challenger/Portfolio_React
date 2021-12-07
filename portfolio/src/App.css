@@ -259,6 +259,8 @@ section {
 
 /************************** ABOUT **************************/
 
+/* LAYOUT */
+
 #about-content {
   display: flex;
   flex-direction: column;
@@ -290,6 +292,8 @@ section {
   color: var(--primary-color);
 }
 
+/* MOBILE */
+
 @media (max-width: 600px) {
   .about-text {
     font-size: 1rem;
@@ -298,14 +302,16 @@ section {
 
 /************************** SKILLS **************************/
 
+/* LAYOUT */
+
 #skills-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 743px;
+  min-height: 743px;
   position: relative;
-  padding-top: 200px;
+  padding-top: 100px;
 }
 
 .skills-info {
@@ -313,6 +319,20 @@ section {
   grid-template-columns: repeat(4, 1fr);
   gap: 2em;
 }
+
+/* MOBILE */
+
+@media (max-width: 1000px) {
+  #skills {
+    height: 1200px;
+  }
+
+  .skills-info {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* FLIPS CARDS */
 
 .flip-card {
   background-color: transparent;
@@ -362,6 +382,21 @@ section {
   font-size: 15px;
 }
 
+/* MOBILE */
+
+@media (max-width: 600px) {
+  .flip-card {
+    height: 150px;
+    width: 150px;
+  }
+
+  .skills-text {
+    font-size: 11px;
+  }
+}
+
+/* COLORS */
+
 #html {
   color: #dd4b25;
 }
@@ -390,3 +425,5 @@ section {
 #python {
   color: #356c9b;
 }
+
+/************************** PROJECTS **************************/
