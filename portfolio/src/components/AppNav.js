@@ -33,7 +33,7 @@ const AppNav = () => {
               <NavLink href='#skills'>Skills</NavLink>
             </NavItem>
             <NavItem className='mx-1'>
-              <NavLink href='/'>Projects</NavLink>
+              <NavLink href='#projects'>Projects</NavLink>
             </NavItem>
             <NavItem className='mx-1'>
               <NavLink href='/'>Contact</NavLink>
