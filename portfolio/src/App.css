@@ -313,11 +313,43 @@ section {
 }
 
 .card-item {
-  max-width: 250px;
-  height: 300px;
+  max-width: 200px;
+  height: 330px;
   cursor: pointer;
+  transition: transform 200ms ease-out;
+}
+
+.card-item:hover {
+  transform: translateY(-15px);
 }
 
 .card {
   height: 100%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#html {
+  color: #dd4b25;
+}
+
+#css {
+  color: #146eb0;
+}
+
+#js {
+  color: #efd81d;
+  background-color: #30312e;
+}
+
+#react {
+  color: #61dafb;
+}
+
+#vue {
+  color: #41b883;
 }
