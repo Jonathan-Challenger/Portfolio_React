@@ -427,3 +427,13 @@ section {
 }
 
 /************************** PROJECTS **************************/
+
+#project-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 743px;
+  position: relative;
+  padding-top: 100px;
+}
