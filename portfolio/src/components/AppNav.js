@@ -20,20 +20,20 @@ const AppNav = () => {
   return (
     <>
       <Navbar color='danger' expand='lg' light fixed='top'>
-        <NavbarBrand href='#landing'>
+        <NavbarBrand href='/#landing'>
           <img src={logo} alt='Logo' id='logo'></img>
         </NavbarBrand>
         <NavbarToggler onClick={() => toggle()} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className='ms-auto' navbar>
             <NavItem className='mx-1'>
-              <NavLink href='#about'>About</NavLink>
+              <NavLink href='/#about'>About</NavLink>
             </NavItem>
             <NavItem className='mx-1'>
-              <NavLink href='#skills'>Skills</NavLink>
+              <NavLink href='/#skills'>Skills</NavLink>
             </NavItem>
             <NavItem className='mx-1'>
-              <NavLink href='#projects'>Projects</NavLink>
+              <NavLink href='/#projects'>Projects</NavLink>
             </NavItem>
             <NavItem className='mx-1'>
               <NavLink href='/'>Contact</NavLink>
