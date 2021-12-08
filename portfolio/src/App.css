@@ -25,6 +25,10 @@ section {
   color: white;
 }
 
+.large {
+  font-size: 2rem;
+}
+
 /************************* NAVBAR **************************/
 
 .navbar {
@@ -436,4 +440,77 @@ section {
   min-height: 743px;
   position: relative;
   padding-top: 100px;
+}
+
+.projects-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2em;
+}
+
+#blackbox-movies {
+  width: 500px;
+  height: 220px;
+  background: url("./img/movie-website-re.png");
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+#premier-league-stats {
+  width: 500px;
+  height: 220px;
+  background: url("./img/plstats-re.png");
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+#weather-app {
+  width: 500px;
+  height: 220px;
+  background: url("./img/weather-re.png");
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+#weblog {
+  width: 500px;
+  height: 220px;
+  background: url("./img/weblog-re.png");
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-color);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#blackbox-movies:hover .overlay {
+  opacity: 0.8;
+}
+
+#premier-league-stats:hover .overlay {
+  opacity: 0.8;
+}
+
+#weather-app:hover .overlay {
+  opacity: 0.8;
+}
+
+#weblog:hover .overlay {
+  opacity: 0.8;
 }
