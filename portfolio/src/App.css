@@ -450,6 +450,14 @@ section {
   gap: 2em;
 }
 
+.projects-info a {
+  color: white;
+}
+
+.projects-info a:hover {
+  color: white;
+}
+
 /* PROJECT ITEMS */
 
 #blackbox-movies {
@@ -559,4 +567,16 @@ section {
   #weblog {
     background: url("./img/weblog-re2.png");
   }
+}
+
+/************************** BLACKBOX DETAIL **************************/
+
+#blackbox-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 743px;
+  position: relative;
+  padding-top: 150px;
 }
