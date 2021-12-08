@@ -432,6 +432,8 @@ section {
 
 /************************** PROJECTS **************************/
 
+/* LAYOUT */
+
 #project-content {
   display: flex;
   flex-direction: column;
@@ -439,7 +441,7 @@ section {
   justify-content: center;
   min-height: 743px;
   position: relative;
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 .projects-info {
@@ -447,6 +449,8 @@ section {
   grid-template-columns: repeat(2, 1fr);
   gap: 2em;
 }
+
+/* PROJECT ITEMS */
 
 #blackbox-movies {
   width: 500px;
@@ -513,4 +517,46 @@ section {
 
 #weblog:hover .overlay {
   opacity: 0.8;
+}
+
+/* MOBILE */
+
+@media (max-width: 1150px) {
+  #projects {
+    height: 1250px;
+  }
+
+  .projects-info {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  #projects {
+    height: 1100px;
+  }
+
+  #blackbox-movies,
+  #weblog,
+  #premier-league-stats,
+  #weather-app {
+    height: 170px;
+    width: 290px;
+  }
+
+  #blackbox-movies {
+    background: url("./img/movie-website-re2.png");
+  }
+
+  #premier-league-stats {
+    background: url("./img/plstats-re2.png");
+  }
+
+  #weather-app {
+    background: url("./img/weather-re2.png");
+  }
+
+  #weblog {
+    background: url("./img/weblog-re2.png");
+  }
 }
