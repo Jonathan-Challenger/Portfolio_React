@@ -685,9 +685,9 @@ section {
 
 /* LAYOUT */
 
-/* #pl-stats {
+#pl-stats {
   height: auto;
-} */
+}
 
 #plstats-content {
   display: flex;
@@ -697,6 +697,14 @@ section {
   min-height: 743px;
   position: relative;
   padding: 150px 0;
+}
+
+#plstats-back {
+  opacity: 0.5;
+  border-radius: 10px;
+  box-shadow: 0 0 30px 30px rgba(79, 12, 68, 0.9);
+  width: 100%;
+  height: auto;
 }
 
 /************************** WEATHER APP DETAIL **************************/
