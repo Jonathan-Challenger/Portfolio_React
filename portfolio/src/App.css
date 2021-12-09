@@ -572,6 +572,8 @@ section {
 
 /************************** BLACKBOX DETAIL **************************/
 
+/* LAYOUT */
+
 #blackboxMovies {
   height: auto;
 }
@@ -594,6 +596,8 @@ section {
   height: auto;
 }
 
+/* TEXT CONTENT */
+
 .main-content {
   display: flex;
 }
@@ -607,6 +611,8 @@ section {
   font-size: 1.5rem;
   text-align: center;
 }
+
+/* SKILLS */
 
 .key-skills {
   display: flex;
@@ -639,6 +645,8 @@ section {
   transform: scale(1.05);
 }
 
+/* BUTTONS */
+
 .button-links {
   margin-top: 50px;
   display: flex;
@@ -656,6 +664,8 @@ section {
   color: white;
 }
 
+/* MOBILE */
+
 @media (max-width: 1000px) {
   .main-content {
     flex-direction: column;
@@ -670,3 +680,5 @@ section {
     font-size: 1rem;
   }
 }
+
+/************************** PLSTATS DETAIL **************************/
