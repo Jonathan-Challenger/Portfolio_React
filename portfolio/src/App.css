@@ -682,3 +682,55 @@ section {
 }
 
 /************************** PLSTATS DETAIL **************************/
+
+/* LAYOUT */
+
+/* #pl-stats {
+  height: auto;
+} */
+
+#plstats-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 743px;
+  position: relative;
+  padding: 150px 0;
+}
+
+/************************** WEATHER APP DETAIL **************************/
+
+/* LAYOUT */
+
+/* #weather-app-sec {
+  height: auto;
+} */
+
+#weather-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 743px;
+  position: relative;
+  padding: 150px 0;
+}
+
+/************************** WEBLOG DETAIL **************************/
+
+/* LAYOUT */
+
+/* #weblog-sec {
+  height: auto;
+} */
+
+#weblog-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 743px;
+  position: relative;
+  padding: 150px 0;
+}
