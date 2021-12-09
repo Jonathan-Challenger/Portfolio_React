@@ -38,7 +38,7 @@ const BlackboxMovies = () => {
           </div>
         </div>
         <div className='button-links'>
-          <Button size='lg' color='danger'>
+          <Button color='danger'>
             <a
               href='https://github.com/Jonathan-Challenger/Web-Dev/tree/main/vue-projects/movie-app'
               target='_blank'
@@ -47,7 +47,7 @@ const BlackboxMovies = () => {
               View Source Code
             </a>
           </Button>
-          <Button size='lg' color='danger' outline>
+          <Button color='danger' outline>
             <a
               href='https://blackbox-movies.netlify.app/'
               target='_blank'
