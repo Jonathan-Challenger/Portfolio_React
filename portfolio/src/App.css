@@ -772,6 +772,11 @@ section {
 
 /* LAYOUT */
 
+#contact {
+  position: relative;
+  overflow: hidden;
+}
+
 #contact-content {
   display: flex;
   flex-direction: column;
@@ -780,4 +785,44 @@ section {
   min-height: 743px;
   position: relative;
   padding-top: 150px;
+}
+
+/* FOOTER SHAPE */
+
+#contact-content::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 500px;
+  left: 50%;
+  width: 200vw;
+  height: 200vw;
+  z-index: 0;
+  border-radius: 50%;
+  margin-left: -100vw;
+  background-color: var(--primary-color);
+}
+
+.contact-info {
+  position: absolute;
+  width: 500px;
+  bottom: 0;
+  z-index: 1;
+  text-align: center;
+}
+
+/* LINKS */
+
+.email a {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.contact-links a {
+  color: white;
+}
+
+.email a:hover,
+.contact-links a:hover {
+  color: rgba(255, 255, 255, 0.7);
 }
