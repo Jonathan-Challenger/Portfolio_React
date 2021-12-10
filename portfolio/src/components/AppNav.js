@@ -36,7 +36,7 @@ const AppNav = () => {
               <NavLink href='/#projects'>Projects</NavLink>
             </NavItem>
             <NavItem className='mx-1'>
-              <NavLink href='/'>Contact</NavLink>
+              <NavLink href='#contact'>Contact</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
