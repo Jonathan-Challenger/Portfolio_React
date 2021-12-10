@@ -30,7 +30,7 @@ const About = () => {
             with friends and watching comedy movies.
           </p>
           <Button color='danger' outline className='my-4'>
-            Lets work together
+            <a href='#contact'>Lets work together</a>
           </Button>
         </div>
       </Container>
