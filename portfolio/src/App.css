@@ -711,9 +711,9 @@ section {
 
 /* LAYOUT */
 
-/* #weather-app-sec {
+#weather-app-sec {
   height: auto;
-} */
+}
 
 #weather-content {
   display: flex;
@@ -725,13 +725,21 @@ section {
   padding: 150px 0;
 }
 
+#weather-back {
+  opacity: 0.5;
+  border-radius: 10px;
+  box-shadow: 0 0 30px 30px rgba(21, 30, 61, 0.9);
+  width: 100%;
+  height: auto;
+}
+
 /************************** WEBLOG DETAIL **************************/
 
 /* LAYOUT */
 
-/* #weblog-sec {
+#weblog-sec {
   height: auto;
-} */
+}
 
 #weblog-content {
   display: flex;
@@ -741,4 +749,12 @@ section {
   min-height: 743px;
   position: relative;
   padding: 150px 0;
+}
+
+#weblog-back {
+  opacity: 0.5;
+  border-radius: 10px;
+  box-shadow: 0 0 30px 30px rgba(0, 0, 0, 0.9);
+  width: 100%;
+  height: auto;
 }
