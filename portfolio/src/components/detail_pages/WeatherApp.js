@@ -14,15 +14,15 @@ const WeatherApp = () => {
         <div className='main-content'>
           <div className='desc'>
             <p>
-              BlackBox Movies is a movie database application similar to IMDB.
-              The users can look at the most popular movies and tv shows at the
-              time and read the description and rating. The user can also search
-              for any movie, tv show or actor they want. <br />
+              The weather app is a simple weather app allowing users to look up
+              information regarding the weather for different towns/cities
+              around the world. It includes information such as temperature,
+              current time at the location, humidity, wind speed etc. <br />
               <br />
-              This project taught me a lot about fetching data from an API and
-              how to use this data in my application using a front-end
-              framework. I also solidified my knowledge of the Vue ecosystem and
-              how to write clean, efficient code in Vue.
+              This project was my introduction to using vanilla JavaScript and
+              jQuery to add functionality to web apps and to fetch data from an
+              API. This project helped me a lot to expand my knowledge of how to
+              use JavaScript to manipulate DOM elements.
             </p>
           </div>
           <div className='key-skills'>

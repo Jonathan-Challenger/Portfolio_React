@@ -10,15 +10,16 @@ const Weblog = () => {
         <div className='main-content'>
           <div className='desc'>
             <p>
-              BlackBox Movies is a movie database application similar to IMDB.
-              The users can look at the most popular movies and tv shows at the
-              time and read the description and rating. The user can also search
-              for any movie, tv show or actor they want. <br />
+              WeBlog is a full stack MERN blogging app which allows users to
+              create an account and a profile and to create posts on a feed.
+              Users can also interact with other users' posts through commenting
+              or liking.
               <br />
-              This project taught me a lot about fetching data from an API and
-              how to use this data in my application using a front-end
-              framework. I also solidified my knowledge of the Vue ecosystem and
-              how to write clean, efficient code in Vue.
+              <br />
+              This project helped to solidify my front-end knowledge including
+              React and Redux. However, throughout this project I gained a lot
+              of knowledge regarding back-end development and my understanding
+              grew substantially.
             </p>
           </div>
           <div className='key-skills'>
