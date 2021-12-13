@@ -13,19 +13,19 @@ const Landing = () => {
             <a href='#about'>Find out More</a>
           </Button>
         </div>
-        <ul className='circles'>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
       </Container>
+      <ul className='circles'>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
     </section>
   );
 };
