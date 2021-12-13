@@ -34,6 +34,18 @@ const Contact = () => {
           </div>
           <div className='copyright mt-5'>&#169; 2021 Jonathan Challenger</div>
         </div>
+        <ul className='circles'>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
       </Container>
     </section>
   );
