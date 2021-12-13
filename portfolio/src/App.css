@@ -332,6 +332,7 @@ section {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2em;
+  z-index: 1;
 }
 
 /* MOBILE */
